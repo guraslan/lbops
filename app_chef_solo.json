@@ -1,0 +1,7 @@
+{
+  "run_list": [
+    "recipe[apt]",
+    "recipe[appserver]",
+    "recipe[appserver::deploy]"
+  ]
+}

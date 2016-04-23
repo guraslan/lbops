@@ -1,0 +1,6 @@
+.git/
+.vagrant/
+aws.json
+code/server
+Vagrantfile
+cookbooks/nginx/recipes/hosts.rb

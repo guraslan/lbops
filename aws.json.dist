@@ -1,0 +1,40 @@
+{
+    "env": "test",
+    "access_key": "ACCESS_KEY",
+    "secret_key": "SECRET_KEY",
+    "region": "eu-west-1",
+    "availability_zone": "a",
+    "subnet_id": "subnet-012c9176",
+    "security_groups": [
+        "sg-78c8a11d"
+    ],
+    "ssh_username": "ubuntu",
+    "keypair": "ssh_key",
+    "ssh_private_key": "/path/to/pem/file",
+    "ec2s": {
+        "tlb": {
+            "ami_id": "ami-f95ef58a",
+            "instance_type": "t2.micro",
+            "elastic_ip": "true",
+            "tags": {
+                "Name": "tlb"
+            }
+        },
+        "tapp1": {
+            "ami_id": "ami-f95ef58a",
+            "instance_type": "t2.micro",
+            "elastic_ip": "true",
+            "tags": {
+                "Name": "tapp1"
+            }
+        },
+        "tapp2": {
+            "ami_id": "ami-f95ef58a",
+            "instance_type": "t2.micro",
+            "elastic_ip": "true",
+            "tags": {
+                "Name": "tapp2"
+            }
+        }
+    }
+}
