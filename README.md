@@ -57,10 +57,3 @@
   `$ sh deploy_code.sh`
 
 
-## Details
-
-``` 
- Uses vagrant to fire up 2 x App and 1 x NGINX loadbalancer server
- Vagrant provisions chef-solo to all servers
- chef-solo applies runbooks
-```
