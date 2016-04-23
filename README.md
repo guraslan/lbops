@@ -1,14 +1,16 @@
 
 # Simple Go application deployment
-##   with round-round nginx
-##  in front of 2 application server
+  with round-round nginx
+  in front of 2 application server
 
+`
                   +------+
 +-----+      +----| app1 |
 |Nginx|------|    +------+
 +-----+      |    +------+
              +----| app2 |
                   +------+
+`
 
 *Prerequisites:*
 - AWS EC2 access_key/secret_key with necessary permissions
